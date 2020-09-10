@@ -16,4 +16,11 @@ plt.plot(x_lst, tan_lst)
 
 # Since the range of x values goes from 0-7, I set the x limit to 2*pi as per the requirements of the assignment
 plt.xlim(0, np.pi*2)
+
+# Adding labels to the graph per suggestion from team member Lucas Fan
+plt.title("Trig Functions Graph")
+plt.legend(['Sin', 'Cos', 'Tan'])
+# Also adding y-lim like I did in my addition of Lucas' code
+plt.ylim(-4,4)
+
 plt.show()
