@@ -24,3 +24,6 @@ plt.legend(['Sin', 'Cos', 'Tan'])
 plt.ylim(-4,4)
 
 plt.show()
+
+#Great Code: only advice from me would be to put this all in a main function. 
+#I experimented with your code and just added a main function and placed all your code inside (if __name__ == '__main__': main() and worked great)
